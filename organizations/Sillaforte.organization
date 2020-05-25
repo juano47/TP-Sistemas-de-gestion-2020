@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="Sillaforte">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="mmendoza">
+      <firstName>Malena</firstName>
+      <lastName>Mendoza</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="slopez">
+      <firstName>Santiago</firstName>
+      <lastName>Lopez</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="jgonzalez">
+      <firstName>Joaquin</firstName>
+      <lastName>Gonzalez</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="mbravo">
+      <firstName>Martin</firstName>
+      <lastName>Bravo</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="eruiz">
+      <firstName>Emilia</firstName>
+      <lastName>Ruiz</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="jcastillo">
+      <firstName>Julieta</firstName>
+      <lastName>Castillo</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="mvillalba">
+      <firstName>Mateo</firstName>
+      <lastName>Villalba</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="bsoto">
+      <firstName>Benjamin</firstName>
+      <lastName>Soto</lastName>
+      <manager></manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Planificador">
+      <displayName>Planificador</displayName>
+    </role>
+    <role name="Empleado">
+      <displayName>Empleado</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Compras">
+      <displayName>Compras</displayName>
+    </group>
+    <group name="Logística">
+      <displayName>Logística</displayName>
+    </group>
+    <group name="Producción">
+      <displayName>Producción</displayName>
+    </group>
+    <group name="Ventas">
+      <displayName>Ventas</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>mmendoza</userName>
+      <roleName>Planificador</roleName>
+      <groupName>Compras</groupName>
+    </membership>
+    <membership>
+      <userName>slopez</userName>
+      <roleName>Empleado</roleName>
+      <groupName>Compras</groupName>
+    </membership>
+    <membership>
+      <userName>jgonzalez</userName>
+      <roleName>Planificador</roleName>
+      <groupName>Logística</groupName>
+    </membership>
+    <membership>
+      <userName>mbravo</userName>
+      <roleName>Empleado</roleName>
+      <groupName>Logística</groupName>
+    </membership>
+    <membership>
+      <userName>eruiz</userName>
+      <roleName>Planificador</roleName>
+      <groupName>Producción</groupName>
+    </membership>
+    <membership>
+      <userName>jcastillo</userName>
+      <roleName>Empleado</roleName>
+      <groupName>Producción</groupName>
+    </membership>
+    <membership>
+      <userName>mvillalba</userName>
+      <roleName>Planificador</roleName>
+      <groupName>Ventas</groupName>
+    </membership>
+    <membership>
+      <userName>bsoto</userName>
+      <roleName>Empleado</roleName>
+      <groupName>Ventas</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
